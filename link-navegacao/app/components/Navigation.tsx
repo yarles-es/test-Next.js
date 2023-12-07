@@ -11,7 +11,7 @@ const Navigation = ({ navLinks }: { navLinks: any }) => {
     <nav className="bg-slate-500">
       <ul>
         {navLinks.map((link: any) => {
-          const active = pathname === link.href;
+          const active = pathname.endsWith(link.href);
           return (
             <li key={link.href} className={active ? "bg-green-500" : ""}>
               <div>
