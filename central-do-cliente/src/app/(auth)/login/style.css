@@ -1,0 +1,27 @@
+/* css para o input de data */
+
+::-webkit-datetime-edit-fields-wrapper {
+  color: #999; 
+}
+
+::-webkit-inner-spin-button {
+  display: none;
+}
+
+::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0); 
+}
+
+::-moz-placeholder { 
+  color: #999;
+  opacity: 1; 
+}
+
+:-ms-input-placeholder { 
+  color: #999;
+}
+
+::placeholder { 
+  color: #999;
+  opacity: 1;
+}
